@@ -17,8 +17,11 @@ def yes_no(question):
             print("please enter yes / no")
 
 
-# Main routine
-want_instructions = yes_no("Do you want instructions? ")
-print(f"you chose {want_instructions}")
+# Main routine  
+
+# testing loop...
+while True:
+     want_instructions = yes_no("Do you want instructions? ")
+     print(f"you chose {want_instructions}")
 
 print("we done")
